@@ -1,4 +1,4 @@
-<h2>This Python script remakes your video from symbols.</h2>
+<h2>This python script converts your video from symbols</h2>
 
 <h3>dependencies</h3>
 
