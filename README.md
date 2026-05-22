@@ -1,4 +1,4 @@
-This Python script remakes your video from symbols.
+<h2>This Python script remakes your video from symbols.</h2>
 
 To work with it you need to install PIL, cv2, yt_dlp and numpy
 ```bash
