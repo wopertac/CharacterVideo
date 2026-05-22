@@ -1,6 +1,6 @@
 <h2>This Python script remakes your video from symbols.</h2>
 
-<h3dependencies</h3>
+<h3>dependencies</h3>
 ```bash
 pip install pillow opencv-python yt-dlp numpy
 ```
