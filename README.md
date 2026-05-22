@@ -6,6 +6,8 @@ pip install pillow opencv-python yt-dlp numpy
 ```
 
 How to use it:
+
+
 For use with your camera:
 ```bash
 python main.py
