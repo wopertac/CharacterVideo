@@ -97,6 +97,7 @@ elif sys.argv[1] == "-l":
     f = frames
     t = frames / fps
     while True:
+        w, h = os.get_terminal_size()
         f -= 1
         t1 = time.time()
         cap, frame = video.read()
@@ -113,7 +114,7 @@ elif sys.argv[1] == "-l":
         dt = time.time() - t1
         dt2 = 1 / fps - dt
         print("Frame render time", dt)
-        print("FPS:", int(1/dt))
+        print("FPS:" + str(int(1/dt)) + "/" + str(int(fps)), "Resolution:", w, h)
         if dt2 > 0:
             time.sleep(dt2)
         t -= 1 / fps
